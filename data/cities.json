@@ -1,0 +1,100 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "982e",
+      "cityName": "Damascus",
+      "country": "Syrian Arab Republic (the)",
+      "emoji": "🇸🇾",
+      "date": "2025-07-14T11:15:55.066Z",
+      "notes": "on of the best cities that i have ever been to",
+      "position": {
+        "lat": "33.51391942394942",
+        "lng": "36.33453369140626"
+      }
+    },
+    {
+      "id": "7f86",
+      "cityName": "Al Qamishli",
+      "country": "Syrian Arab Republic (the)",
+      "emoji": "🇸🇾",
+      "date": "2025-07-14T11:19:54.235Z",
+      "notes": "",
+      "position": {
+        "lat": "37.05079312980657",
+        "lng": "41.25640869140626"
+      }
+    },
+    {
+      "id": "92ed",
+      "cityName": "Beirut",
+      "country": "Lebanon",
+      "emoji": "🇱🇧",
+      "date": "2025-07-14T11:24:15.721Z",
+      "notes": "",
+      "position": {
+        "lat": "33.889797493644444",
+        "lng": "35.479660034179695"
+      }
+    },
+    {
+      "id": "cbec",
+      "cityName": "Gaza",
+      "country": "Palestine, State of",
+      "emoji": "🇵🇸",
+      "date": "2025-07-14T11:24:51.341Z",
+      "notes": "",
+      "position": {
+        "lat": "31.475524020001806",
+        "lng": "34.38171386718751"
+      }
+    },
+    {
+      "id": "c938",
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2025-07-14T15:21:15.801Z",
+      "notes": "",
+      "position": {
+        "lat": "30.05958569970824",
+        "lng": "31.346740722656254"
+      }
+    }
+  ]
+}
