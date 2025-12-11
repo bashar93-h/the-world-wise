@@ -6,6 +6,8 @@ import {
   useCallback,
 } from "react";
 
+import PropTypes from "prop-types";
+
 const CitiesContext = createContext();
 
 const BASE_URL = "https://the-world-wise-production.up.railway.app";
@@ -142,4 +144,9 @@ function useCities() {
   const context = useContext(CitiesContext);
   return context;
 }
+
+CitiesProvider.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
 export { CitiesProvider, useCities };
