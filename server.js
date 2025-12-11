@@ -1,16 +1,14 @@
-import jsonServer from "json-server";
+const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("data/cities.json");
-const middlewares = jsonServer.defaults({
-  static: "./dist",
-});
+const middlewares = jsonServer.defaults();
 
 const port = process.env.PORT || 9000;
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-// Add CORS headers
+// Enable CORS
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
@@ -21,6 +19,9 @@ server.use((req, res, next) => {
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
   );
+  if (req.method === "OPTIONS") {
+    return res.sendStatus(200);
+  }
   next();
 });
 
